@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.logo img{
+    width: 160px;
+}
+
+.btn{
+    background: #2D2C2C;
+    color: #FFDD29;
+    padding: 5px 20px;
+    border: none;
+}
+
+.banner{
+    height: 80vh;
+    display: flex;
+    background: url(https://foodmandu.com/img/top_seamless_background.jpg);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header{
+    padding-bottom: 20px;
+}
+
+.form{
+    width: 900px;
+    height: 39px;
+    padding: 5px 20px;
+}
+
+.button{
+    background: #FFDD00;
+    color: black;
+    border: none;
+    padding: 5px 20px;
+}
+
+.head{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width:100%;
+      b
+      \]rder:none;"
+}
+
+
+
+.box{
+    width: 250px;
+}
+
+.box img {
+    width: 100%;
+    height: 150px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+    flex-basis: 150px;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.about{
+    background: linear-gradient(transparent, black), url(https://foodmandu.com/img/alice-banner.png);
+    height: 50vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 50px 0;
+}
+
+.inner{
+    width: 600px;
+}
+
+.learn-btn{
+    padding: 10px 3px;
+}
+
+.p{
+    padding: 10px 0;
+}
+
+.subscribe{
+    justify-content: center;
+    text-align: center;
+    background: #F7F7F7;
+    align-items: center;
+    height: 50vh;
+    display: flex;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.btn2{
+    background: #DBBE00;
+    color: black;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+}
+
+footer{
+    width: 1200px;
+    height: 40vh;
+    padding: 40px 0;
+    line-height: 1.7em;
+}
+
+.icons{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    font-size: 30px;
+}
